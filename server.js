@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const userRouter = require('./userroutes')
-app.use('/tasks', userRouter)
+app.use('/users', userRouter)
 
 
 app.listen(3000, () => {
